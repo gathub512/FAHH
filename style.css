@@ -1,0 +1,19 @@
+.orange {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: hsl(271, 76%, 53%);
+  padding: 10px; /* Increased for better clickability */
+  margin: 0px;
+  width: fit-content;
+  border-radius: 9px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the element */
+  cursor: pointer;
+}
+.orange:hover {
+  background-color: hsl(271, 76%, 63%);
+}
+.orange:active {
+  background-color: hsl(271, 76%, 43%);
+}
